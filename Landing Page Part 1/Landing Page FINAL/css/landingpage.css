@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+#topNavBar{
+    background-color: #F2B330;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#topNavBarList{
+    display: flex;
+    padding-top: 12px;
+}
+
+#topNavBarList li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topNavBarGroup1 img{
+    padding-top: 12px;
+}
+
+#topNavBarGroup3 input{
+    margin-left: 25px;
+    width: 96px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #FFEF9D;
+}
+
+#topNavBarGroup3 img{
+    vertical-align: middle;
+}
+
+#slideshow1{
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+#titleAndSearch1{
+    position: absolute;
+    margin-left: -160px;
+    margin-top: 75px;
+}
+
+#slideshow1 h1{
+    font-size: 50px
+    
+}
+
+#firstSearchBar{
+    position: relative;
+    margin-top: 75px;
+}
+
+#firstSearchBar input{
+    outline: none;
+    box-shadow: -3px 10px 100px -25px grey;
+    border: none;
+    width: 420px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+#firstSearchBar input::placeholder{
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#firstSearchBar img{
+    width: 45px;
+    position: absolute;
+    left: 365px;
+    top: 6px;
+}
+
+#firstSearchBar #dotornament{
+    top: 30px;
+    left: -50px;
+    z-index: -5;
+    width: 75px;
+    height: auto;
+}
+
+#slideshow1Images img{
+    display: flex;
+    width: 65%;
+}
+
+#slideshow1Images #secondImage{
+    width: 58%;
+    margin-left: 875px;
+    margin-top: -640px;
+}
+
+#square1{
+    margin-top: 220px;
+    margin-left: 25%;
+    width: 971px;
+    height: 461px;
+    background-color: #FBC788;
+    border-radius: 10px / 10px;
+}
+
+#square1 h1{
+    font-size: 50px;
+    color: white;
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 45px;
+}
+
+#square1 img{
+    margin-top: -80px;
+}
+
+#square1 #square1FirstImg{
+    margin-left: -80px;
+}
+
+#filterCategories{
+    margin-left: 21.6%;
+    margin-top: 170px;
+}
+
+#square2{
+    width: 499px;
+    height: 187px;
+    background-color: #F2B330;
+    border-radius: 10px / 10px;
+}
+
+#square2 select{
+    width: 272px;
+    height: 45px
+}
+
+#square2 select #placeholderOption{
+    width: 272px;
+    height: 45px
+}
+
+/*LANJUTIN CSS DIBARIS INI*/
+
+footer{
+    background-color: #FBC788;
+    text-align: center;
+    padding: 50px;
+}
