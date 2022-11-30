@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+#topNavBar{
+    background-color: #F2B330;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#topNavBarList{
+    display: flex;
+    padding-top: 12px;
+}
+
+#topNavBarList li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topNavBarGroup1 img{
+    padding-top: 12px;
+}
+
+#topNavBarGroup3 input{
+    margin-left: 25px;
+    width: 96px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #FFEF9D;
+}
+
+#topNavBarGroup3 img{
+    vertical-align: middle;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+#topNavBarAbout{
+    background-color: #FFF1C5;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    justify-content: space-between;
+    padding: 25px;
+    padding-left: 200px;
+    padding-right: 100px;
+    border-radius: 20px;
+}
+
+#topNavBarText {
+    padding-top: 14px;
+}
+#topNavBarList{
+    display: flex;
+    padding-top: 12px;
+}
+
+#topNavBarList li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#topNavBarGroup1 img{
+    padding-top: 12px;
+}
+#buttonTopNavBarAbout {
+    background-color: white;
+    height: 26px;
+    width: 140px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+#firstSearchBar{
+    position: relative;
+    margin-top:0;
+}
+
+#firstSearchBar input{
+    outline: none;
+    box-shadow: -3px 10px 100px -25px grey;
+    border: none;
+    width: 270px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#firstSearchBar img{
+    width: 30px;
+    position: absolute;
+    left: 235px;
+    top: 4px;
+}
+
+#featurePageContent {
+    background: url("../img/Frame 1.png") left no-repeat, url("../img/Frame 2.png") right no-repeat;
+    min-height: 1100px;
+}
+
+#featurePageContent-text1 {
+    text-align: center;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 68px;
+    color: #F2B330;
+    margin-top: 30px;
+}
+#secondSearchBar{
+    position: relative;
+    margin-top:0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#secondSearchBar input{
+    outline: none;
+    border: none;
+    width: 860px;
+    height: 101px;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: #F4F4F4;
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    color: #979797;
+}
+
+
+#secondSearchBar img{
+    width: 63px;
+    height: 67px;
+    position: absolute;
+    left: 1300px;
+    top: 16px;
+}
