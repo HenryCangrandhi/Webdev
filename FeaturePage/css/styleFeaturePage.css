@@ -152,3 +152,45 @@ a, li{
     left: 1300px;
     top: 16px;
 }
+
+#videoCard1{
+    margin-left: 10px;
+    width: 320px;
+    height: fit-content;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 180px;
+}
+
+#videoCardSquare{
+    width: 317px;
+    height: 46px;
+    border-bottom: black solid 2px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+#videoCardContent #contentImg{
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 2%;
+
+}
+
+#videoCardDescription{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#videoCardDescription h2{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+#videoCardDescription small{
+    color: gray;
+}
