@@ -658,7 +658,7 @@ a, li{
 footer{
     background-color: #FBC788;
     text-align: center;
-    min-height: 500px;
+    min-height:550px;
 }
 
 .heading-footer {
@@ -696,14 +696,25 @@ footer{
 
 .footer-end {
     display: flex;
-    gap: 20px;
+    gap: 60px;
     font-size: 12px;
-    margin-top: 70px;
+    margin-top: 130px;
     margin-left: 200px;
 }
 
-.footer-end a {
-    color: #636363;
+.footer-end .footer-end-text {
     font-family: 'PT Sans', sans-serif;
     font-size: 18px;
+    display: flex;
+    gap: 120px;
+}
+
+.footer-end .footer-end-text a{
+    color: #636363;
+}
+
+.footer-end .social-media-icon {
+    display: flex;
+    gap: 30px;
+    margin-left: 250px;
 }
