@@ -70,6 +70,11 @@ a, li{
 
 #topNavBarText {
     padding-top: 14px;
+    margin-left: 100px;
+}
+
+#topNavBarText a {
+    color: #F0656B;
 }
 #topNavBarList2{
     display: flex;
@@ -115,4 +120,176 @@ a, li{
     position: absolute;
     left: 235px;
     top: 4px;
+}
+
+#content-fp {
+    min-height: 700px;
+}
+
+#videoCards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#videoCards-col2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#videoCardSquare{
+    width: 1040px;
+    height: 61px;
+    border-bottom: black solid 1px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+#videoCardContent video{
+    width: 960px;
+    height: 461px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    justify-content: center;
+}
+#videoCardDescription{
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    font-family: 'Inter', sans-serif;
+}
+
+#videoCardDescription h2{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+#videoCardDescription small{
+    color: #404852;
+    font-size: 20px;
+}
+
+#videoCard1{
+    margin-left: 10px;
+    width: 1040px;
+    height: 674px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin-top: 153px;
+}
+
+#product-link {
+    display: flex;
+    justify-content: center;
+    border: black solid 1px;
+    width: 1040px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+#product-link img {
+    width: 90px;
+    height: 30px;
+    margin-top: 58px;
+    margin-left: 58px;
+    margin-bottom: 58px;
+    margin-right: 90px;
+}
+
+#product-link-content {
+    margin: auto;
+}
+
+#product-link-content h2{
+    font-family: 'Mulish', sans-serif;
+    font-size: 36px;
+    color: #404852;
+    margin-bottom: 10px;
+}
+
+#product-link-content p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    color: #404852;
+    font-weight: bold;
+}
+
+#sensoryBoxProduct img{
+    margin: 20px;
+    margin-left: 50px;
+    width: 140px;
+    height: 132px;
+}
+
+footer{
+    background-color: #FBC788;
+    text-align: center;
+    min-height:550px;
+}
+
+.heading-footer {
+    float: left;
+    font-size: 32px;
+    margin-left: 200px;
+    margin-top: 58px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    font-family: 'Patrick Hand', sans-serif;
+    text-align: left;
+}
+
+.footer-body {
+    width: 100%;
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.footer-col h3 {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer-col a {
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer-end {
+    display: flex;
+    gap: 60px;
+    font-size: 12px;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+.footer-end .footer-end-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    gap: 120px;
+}
+
+.footer-end .footer-end-text a{
+    color: #636363;
+}
+
+.footer-end .social-media-icon {
+    display: flex;
+    gap: 30px;
+    margin-left: 250px;
 }
