@@ -15,6 +15,7 @@ a, li{
     display: flex;
     text-align: center;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
     justify-content: space-between;
     padding: 25px;
     padding-left: 100px;
@@ -59,6 +60,7 @@ a, li{
     display: flex;
     text-align: center;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
     justify-content: space-between;
     padding: 25px;
     padding-left: 200px;
@@ -69,12 +71,13 @@ a, li{
 #topNavBarText {
     padding-top: 14px;
 }
-#topNavBarList{
+#topNavBarList2{
     display: flex;
     padding-top: 12px;
+    float: left;
 }
 
-#topNavBarList li{
+#topNavBarList2 li{
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -88,6 +91,9 @@ a, li{
     width: 140px;
     border-radius: 8px;
     font-weight: 700;
+    justify-content: center;
+    margin-right: 200px;
+    font-family: 'Inter', sans-serif;
 }
 #firstSearchBar{
     position: relative;
@@ -113,7 +119,7 @@ a, li{
 
 #featurePageContent {
     background: url("../img/Frame 1.png") left no-repeat, url("../img/Frame 2.png") right no-repeat;
-    min-height: 1100px;
+    min-height: 1400px;
 }
 
 #featurePageContent-text1 {
@@ -152,22 +158,24 @@ a, li{
     left: 1300px;
     top: 16px;
 }
+#videoCards {
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    justify-content: center;
+}
 
-#videoCard1{
-    margin-left: 10px;
-    width: 320px;
-    height: fit-content;
-    border: black solid 2px;
-    background-color: white;
-    border-radius: 10px;
-    position: absolute;
-    margin-top: 180px;
+#videoCards-col2 {
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    justify-content: center;
 }
 
 #videoCardSquare{
     width: 317px;
     height: 46px;
-    border-bottom: black solid 2px;
+    border-bottom: black solid 1px;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
 }
@@ -182,15 +190,153 @@ margin-top: 2%;
 
 #videoCardDescription{
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 10%;
     padding-bottom: 5%;
+    font-family: 'Inter', sans-serif;
 }
 
 #videoCardDescription h2{
     margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #videoCardDescription small{
-    color: gray;
+    color: #404852;
+    font-size: 12px;
+}
+
+#videoCard1{
+    margin-left: 10px;
+    width: 320px;
+    height: 318px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin-top: 180px;
+}
+
+#videoCard2{
+    margin-left: 10px;
+    width: 320px;
+    height: 318px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin-top: 180px;
+}
+
+#videoCard3{
+    margin-left: 10px;
+    width: 320px;
+    height: 318px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align:left;
+    margin-top: 180px;
+}
+
+#videoCard4{
+    margin-left: 10px;
+    width: 320px;
+    height: 318px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+}
+
+#videoCard5{
+    margin-left: 10px;
+    width: 320px;
+    height: 318px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align:left;
+    margin-top: 50px;
+}
+
+#videoCard6{
+    margin-left: 10px;
+    width: 320px;
+    height: 318px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    text-align: left;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #FBC788;
+    text-align: center;
+    min-height:550px;
+}
+
+.heading-footer {
+    float: left;
+    font-size: 32px;
+    margin-left: 200px;
+    margin-top: 58px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    font-family: 'Patrick Hand', sans-serif;
+    text-align: left;
+}
+
+.footer-body {
+    width: 100%;
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.footer-col h3 {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 15px;
+}
+
+.footer-col a {
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.footer-end {
+    display: flex;
+    gap: 60px;
+    font-size: 12px;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+.footer-end .footer-end-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    gap: 120px;
+}
+
+.footer-end .footer-end-text a{
+    color: #636363;
+}
+
+.footer-end .social-media-icon {
+    display: flex;
+    gap: 30px;
+    margin-left: 250px;
 }
