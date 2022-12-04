@@ -5,10 +5,6 @@
     {
         echo 'Connection error: ' . mysqli_connect_error();
     }
-    else
-    {
-        echo 'Database successfully connected.';
-    }
 
     $sql = 'SELECT ID, Nama_Produk, Stok_Produk, Harga_Produk, Deskripsi_Produk, Gambar_Produk FROM product_detail';
     $result = mysqli_query($con, $sql);
@@ -20,8 +16,6 @@
 
     //close connection
     mysqli_close($con);
-
-    print_r($products);
 ?>
 
 <!DOCTYPE html>
@@ -51,7 +45,7 @@
                 <ul id="topNavBarList">
                     <li><a href="#">On Sale</a></li>
                     <li><a href="#">Shop Now</a></li>
-                    <li><a href="FeaturePage/featurepage.php">Videos</a></li>
+                    <li><a href="../FeaturePage/featurepage.php">Videos</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
@@ -314,7 +308,7 @@
                 Mulai berlangganan untuk pembelian <br> selama bulan pertama.
             </p>
             <p id="reason2link">
-                <a href="../web/FeaturePage/featurepage.html"><img src="img/Frame 21.png"></a>
+                <a href="../FeaturePage/featurepage.php"><img src="img/Frame 21.png"></a>
             </p>
             </div>
         </div>

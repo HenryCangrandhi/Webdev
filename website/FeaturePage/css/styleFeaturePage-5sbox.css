@@ -194,6 +194,7 @@ a, li{
     border-radius: 8px;
     margin-bottom: 100px;
     margin-top: 40px;
+    margin-left: 435px;
 }
 
 #product-link img {
@@ -207,6 +208,7 @@ a, li{
 
 #product-link-content {
     margin: auto;
+    
 }
 
 #product-link-content h2{

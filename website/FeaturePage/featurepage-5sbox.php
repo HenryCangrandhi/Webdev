@@ -16,13 +16,13 @@
     <header>
         <nav id="topNavBar">
             <div id="topNavBarGroup1">
-                <a href="../landingpage/index.html"><img src="#" alt="LOGO"></a>
+                <a href="../LandingPage/index.php"><img src="#" alt="LOGO"></a>
             </div>
             <div id="topNavBarGroup2">
                 <ul id="topNavBarList">
                     <li><a href="#">On Sale</a></li>
                     <li><a href="#">Shop Now</a></li>
-                    <li><a href="featurepage.html">Videos</a></li>
+                    <li><a href="featurepage.php">Videos</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
@@ -79,8 +79,11 @@
                 untuk menstimulasi 5 panca indera serta motorik halus dan kasar anak.</p>
             </div>
 
-            <a href="../Product Page/productpage.html"><img src="img/Frame 21.png"></a>
+            <a href="../Product Page/productpage.php"><img src="img/Frame 21.png"></a>
         </section>
+
+</body>
+
         <footer>
             <h3 class="heading-footer">
                 PLAY<br> WITH US
@@ -176,4 +179,5 @@
                 </div>
             </div>
         </footer>
-</body>
+
+</html>

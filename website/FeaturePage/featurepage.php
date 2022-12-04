@@ -15,7 +15,7 @@
     <header>
         <nav id="topNavBar">
             <div id="topNavBarGroup1">
-                <a href="../landingpage/index.php"><img src="#" alt="LOGO"></a>
+                <a href="../LandingPage/index.php"><img src="#" alt="LOGO"></a>
             </div>
             <div id="topNavBarGroup2">
                 <ul id="topNavBarList">
@@ -63,7 +63,7 @@
                 <div id="videoCard1">
                     <div id="videoCardSquare" style="background-color: #DC0D17;"></div>
                     <div id="videoCardContent">
-                        <a href="featurepage-5sbox.html"><img src="img/thumbnail.png" alt="" id="contentImg"></a>
+                        <a href="featurepage-5sbox.php"><img src="img/thumbnail.png" alt="" id="contentImg"></a>
                     </div>
                     <div id="videoCardDescription">
                         <h2>How to play with 5 Sensory Box</h2>

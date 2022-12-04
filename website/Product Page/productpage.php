@@ -1,3 +1,23 @@
+<?php
+    $con = mysqli_connect('localhost', 'root', '', 'product');
+
+    if(!$con)
+    {
+        echo 'Connection error: ' . mysqli_connect_error();
+    }
+
+    $sql = 'SELECT ID, Nama_Produk, Stok_Produk, Harga_Produk, Deskripsi_Produk, Gambar_Produk FROM product_detail';
+    $result = mysqli_query($con, $sql);
+
+    $products = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    //free result from memory
+    mysqli_free_result($result);
+
+    //close connection
+    mysqli_close($con);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,6 +61,8 @@
 
     </header>
 
+
+ 
     <div class = "card-wrapper">
         <div class = "card">
           <!-- card left -->
@@ -546,30 +568,125 @@
         <p id="rcmdtitle">Recommended For You</p>
 
         <div id="listrecommend">
+            <?php foreach($products as $product) { ?>
             <div id="recommendcard">
-                <img src="img/reccomend1.png" href="#" id="rcmdimg">
-                <div id="recommenddescandrating">
-                    <div id="recommenddesc">
-                        <p id="recommendtitle"> Vacation on Board </p>
-                        <p id="recommendtext">Liburan yang menyenangkan bersama keluarga </p>
-                        <p id="recommendprice">Rp 150.000</p>
-                    </div>
+                <a href="#">
+                <img src="img/<?= $product['Gambar_Produk'] ?>" href="#" id="rcmdimg">
+                    <div id="recommenddescandrating">
+                        <div id="recommenddesc">
+                            <p id="recommendtitle"><?= $product['Nama_Produk'] ?></p>
+                            <p id="recommendtext"><?= $product['Deskripsi_Produk'] ?></p>
+                            <p id="recommendprice"><?= $product['Harga_Produk'] ?></p>
+                        </div>
 
-                    <div id="rating">
-                        <img src="img/Star.png" id="star">
-                        <p id="ratingnumber">4.5</p>
+                        <div id="rating">
+                            <img src="img/Star.png" id="star">
+                            <p id="ratingnumber">4.5</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-          </div> 
+            <?php } ?>
         </div>
-    </div>      
+    </div>
       
-      <script src="script.js"></script>
+    <script src="script.js"></script>
 
     <footer>
-        <p>This is the footer.</p>
-    </footer>
+            <h3 class="heading-footer">
+                PLAY<br> WITH US
+            </h3>
+            <div class="footer-body">
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                          <a href="#">942-308-3868</a>
+                        </li>
+                        <li>
+                          <a href="#">Support@toys.com</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="footer-col">
+                    <h3 class="heading-col2">
+                        Products
+                    </h3>
+                    <ul>
+                        <li>
+                          <a href="#">Our Partners</a>
+                        </li>
+                        <li>
+                          <a href="#">How to Refund</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="heading-col3">
+                        My Account
+                    </h3>
+                    <ul>
+                        <li>
+                          <a href="#">Profile</a>
+                        </li>
+                        <li>
+                          <a href="#">Payment</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="heading-col4">
+                        About Us
+                    </h3>
+                    <ul>
+                        <li>
+                          <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                          <a href="#">Service Reviews</a>
+                        </li>
+                        <li>
+                            <a href="#">Customer Care</a>
+                        </li>
+                        <li>
+                            <a href="#">Help</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="heading-col5">
+                        Review with Us
+                    </h3>
+                    <ul>
+                        <li>
+                          <a href="#">How <br>to Benefits</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <ul>
+                        <li>
+                          
+                        </li>
+                        <li>
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-end">
+                <div class="footer-end-text">
+                <a href="#">TOYS PRODUCTIONS &copy; 2022 All Rights Reserved.</a>
+                <a href="#">TERMS & CONDITIONS</a>
+                <a href="#">PRIVACY POLICY</a>
+            </div>
+                <div class="social-media-icon">
+                    <a href="https://www.instagram.com" target="_blank"><img src="img/instagram-icon.png"></a>
+                    <a href="https://www.whatsapp.com" target="_blank"><img src="img/whatsapp-icon.png"></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="img/twitter-icon.png"></a>
+                </div>
+            </div>
+        </footer>
 
 </body>
 </html>

@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+html,body
+{
+    overflow-x: hidden; 
+}
+
 a, li{
     text-decoration: none;
     list-style-type: none;
@@ -530,7 +535,9 @@ a, li{
 }
 
 #rcmdimg{
-    border-radius: 10px;
+    width: 350px;
+    height: auto;
+    object-fit: cover;
 }
 
 #recommenddescandrating{
@@ -538,7 +545,7 @@ a, li{
 }
 
 #recommendtitle{
-    margin-top:15px;
+    margin-top: 15px;
     color: #1EA59A;
     font-size: 22px;
 }
@@ -718,3 +725,4 @@ footer{
     gap: 30px;
     margin-left: 250px;
 }
+

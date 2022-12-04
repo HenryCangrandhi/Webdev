@@ -37,7 +37,7 @@ parentContainer.addEventListener('click', event=>{
 
 })
 
-let listrecommend = document.getElementById('listrecommend')
+/*let listrecommend = document.getElementById('listrecommend')
 let recommendcard = document.getElementById('recommendcard')
 
 console.log(listrecommend)
@@ -47,4 +47,4 @@ for(let i=0; i<5; i++)
 {
     let newcard = recommendcard.cloneNode(recommendcard)
     listrecommend.appendChild(newcard)
-}
+}*/
